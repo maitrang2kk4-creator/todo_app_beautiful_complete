@@ -1,0 +1,119 @@
+/* Minimal beautiful styles */
+* { box-sizing: border-box; }
+body { margin:0; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: linear-gradient(135deg,#e9f7ff 0%, #f7fbff 50%, #f0f7ee 100%); color:#123; }
+.container { max-width:1100px; margin:36px auto; padding:20px; }
+.card { background:#fff; border-radius:12px; padding:20px; box-shadow:0 12px 30px rgba(16,40,60,0.06); }
+.header { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:16px; }
+.brand { display:flex; align-items:center; gap:12px; }
+.logo { width:56px; height:56px; border-radius:12px; background:linear-gradient(135deg,#5ee7df,#6bb9ff); display:flex; align-items:center; justify-content:center; box-shadow:0 8px 22px rgba(34,60,80,0.08); }
+.app-title { font-size:20px; font-weight:700; color:#07314a; }
+.hero { display:flex; gap:24px; align-items:center; }
+.illustration { flex:1; display:flex; align-items:center; justify-content:center; }
+.illustration svg { width:100%; max-width:420px; height:auto; }
+.form-box { width:420px; flex:0 0 420px; }
+.form-card { background: linear-gradient(180deg, rgba(98,150,255,0.04), rgba(98,150,255,0.02)); padding:18px; border-radius:10px; border:1px solid rgba(100,140,255,0.06); }
+.form-card h3 { margin:0 0 8px 0; color:#07406a; }
+.input { margin-bottom:12px; }
+.input label { display:block; font-size:13px; margin-bottom:6px; color:#14516a; }
+.input input, .input textarea, .input select { width:100%; padding:10px 12px; border-radius:8px; border:1px solid #e6eef5; background:#fff; font-size:14px; }
+.btn { display:inline-block; padding:10px 14px; border-radius:8px; text-decoration:none; border:none; cursor:pointer; font-weight:600; }
+.btn-primary { background: linear-gradient(90deg,#4facfe,#00f2fe); color:#043045; box-shadow:0 8px 20px rgba(65,168,255,0.14); }
+.btn-ghost { background:transparent; color:#07406a; border:1px solid rgba(7,64,106,0.08); }
+.table { width:100%; border-collapse:collapse; margin-top:18px; }
+.table th, .table td { padding:12px 10px; text-align:left; border-bottom:1px solid #f1f6fb; }
+.badge { padding:6px 10px; border-radius:999px; font-size:13px; font-weight:600; }
+.badge.pending { background:#fff3cd; color:#7a5d00; border:1px solid #ffe8a8; }
+.badge.in_progress { background:#e6f7ff; color:#055160; border:1px solid #c5eefc; }
+.badge.completed { background:#e9f7ed; color:#1b5e20; border:1px solid #c8efcf; }
+.actions a { margin-right:8px; text-decoration:none; }
+.empty { text-align:center; padding:40px 0; color:#678; }
+@media (max-width:900px){ .hero { flex-direction:column; } .form-box { width:100%; } .illustration svg { max-width:320px; } }
+/* 🌸 Cute Pastel Theme */
+body {
+    background: linear-gradient(135deg, #ffe6ef 0%, #eafffb 100%);
+    font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+.dashboard-layout {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.dashboard-illustration {
+    flex: 0 0 40%;
+    background: #ffffffaa;
+    border-radius: 20px;
+    padding: 14px;
+    box-shadow: 0 10px 25px rgba(255, 150, 170, 0.20);
+}
+
+.dashboard-illustration img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.dashboard-content {
+    flex: 1;
+}
+
+.card-strong {
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 25px;
+    box-shadow: 0 15px 40px rgba(255, 160, 200, 0.25);
+    border: 2px solid #ffe8f2;
+}
+
+/* Table cute */
+.table th {
+    background: #ffeaf3;
+    color: #6b3750;
+    font-weight: 600;
+}
+
+.table td {
+    background: #ffffff;
+    border-bottom: 2px solid #fff3f8;
+}
+
+/* Cute Status badges */
+.status {
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.status.pending {
+    background: #fff5c7;
+    color: #8a6a00;
+}
+
+.status.in_progress {
+    background: #e2f4ff;
+    color: #005a7a;
+}
+
+.status.completed {
+    background: #d8ffe5;
+    color: #0d7330;
+}
+
+/* Status icons */
+.status.pending::before { content: "🌙 "; }
+.status.in_progress::before { content: "✨ "; }
+.status.completed::before { content: "🌸 "; }
+
+/* Cute button style */
+.btn-primary {
+    background: linear-gradient(90deg, #ff91c8, #ffb3de);
+    color: #fff;
+    border-radius: 12px;
+}
+
+.btn-ghost {
+    background: #fff0f6;
+    border: 1px solid #ffc8e3;
+    border-radius: 12px;
+}

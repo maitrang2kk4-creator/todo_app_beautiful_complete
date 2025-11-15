@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe6ef"/>
+      <stop offset="1" stop-color="#e5fff8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="30" fill="url(#bg)"/>
+
+  <!-- Cute cloud -->
+  <ellipse cx="250" cy="180" rx="60" ry="35" fill="#ffffff"/>
+  <ellipse cx="290" cy="180" rx="50" ry="30" fill="#ffffff"/>
+  <ellipse cx="265" cy="160" rx="40" ry="25" fill="#ffffff"/>
+
+  <!-- Cute star -->
+  <polygon points="550,120 560,150 590,150 565,170 575,200 550,180 525,200 535,170 510,150 540,150"
+    fill="#ffeb8a"/>
+
+  <!-- Book (cute style) -->
+  <rect x="340" y="180" width="150" height="200" rx="16" fill="#ffffff"/>
+  <rect x="350" y="190" width="130" height="180" rx="14" fill="#ffbcd4"/>
+  <rect x="360" y="210" width="110" height="20" rx="8" fill="#ffe6ee"/>
+  <rect x="360" y="240" width="110" height="10" rx="8" fill="#fff3f7"/>
+
+  <!-- Bunny ears -->
+  <ellipse cx="400" cy="160" rx="15" ry="35" fill="#ffe6ef"/>
+  <ellipse cx="430" cy="160" rx="15" ry="35" fill="#ffe6ef"/>
+</svg>

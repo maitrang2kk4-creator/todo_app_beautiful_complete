@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b3e5ff"/>
+      <stop offset="1" stop-color="#c8f7e8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" rx="18" fill="url(#g1)"/>
+  <g transform="translate(120,90)">
+    <rect x="0" y="60" width="220" height="160" rx="10" fill="#5ee7df" opacity="0.95"/>
+    <rect x="20" y="30" width="180" height="200" rx="12" fill="#6bb9ff"/>
+    <rect x="40" y="10" width="140" height="220" rx="10" fill="#fff"/>
+    <rect x="48" y="28" width="124" height="20" rx="4" fill="#bfe1ff"/>
+    <rect x="48" y="60" width="124" height="8" rx="4" fill="#d6f2ff"/>
+    <rect x="170" y="130" width="8" height="60" rx="3" fill="#8d6e63"/>
+    <rect x="152" y="140" width="40" height="8" rx="3" fill="#8d6e63"/>
+    <rect x="152" y="160" width="40" height="8" rx="3" fill="#8d6e63"/>
+  </g>
+  <g transform="translate(420,170)">
+    <rect x="0" y="0" width="220" height="120" rx="18" fill="#ffffff" opacity="0.9" stroke="#dfefff" />
+    <circle cx="30" cy="36" r="12" fill="#bfe1ff"/>
+    <circle cx="60" cy="36" r="12" fill="#bfe1ff"/>
+    <circle cx="90" cy="36" r="12" fill="#bfe1ff"/>
+    <rect x="24" y="64" width="170" height="12" rx="6" fill="#e9f7ff"/>
+  </g>
+  <g transform="translate(80,230)">
+    <polygon points="0,40 18,0 36,40" fill="#77d6a3"/>
+    <rect x="16" y="40" width="4" height="18" fill="#8b5a2b"/>
+  </g>
+  <g transform="translate(320,260)">
+    <polygon points="0,40 18,0 36,40" fill="#7ec6ff"/>
+    <rect x="16" y="40" width="4" height="18" fill="#8b5a2b"/>
+  </g>
+</svg>
